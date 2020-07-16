@@ -2,6 +2,8 @@
 
 [![Binder]()
 
+Try the notebooks on pangeo.binder.io_ : |Binder|
+
 **Quick notes**
 
 This material has been prepared for the ESIP Open Data Education Series. We encourage you to run the tutorial by yourself, but please have a look at all the sections below. We appreciate your support and feedback. 
@@ -13,12 +15,11 @@ Our goal is to introduce users to the fundamental components that make up Pangeo
 
 ## Description
 
-There are roughhly 10 mudules whic are introduced via Jupyter Notebooks. The idea is a user works through them one by one to refresh/exercise the rudimentary concepts, and finally see it utilized in an actual workflow.
+There are roughhly 10 mudules which are introduced via Jupyter Notebooks. The idea is a user works through them one by one to refresh/exercise the rudimentary concepts, and finally see it utilized in an actual workflow.
 
 `Introduction to Basic Python` is a notebook that describes open source Python packages that have been developed to seamlessly read and process spatio-temporal satellite imagery like Landsat or Sentinel.
 
 The `Introduction to Cloud Computing` is a notebook goes into basics of cloud computing for satellite imagery and procesing. It is written for entry-level folks, and lacks full-depth walk-through.
-
 
 
 ## Installation notes
@@ -45,8 +46,6 @@ git clone https://github.com/ESIPFed/open-data-education.git
 
 Also, you can download the repository as a .zip file by heading over to the GitHub repository (https://github.com/ESIPFed/open-data-education.git) in
 your browser and click the green "Download" button in the upper right:
-
-<img src="images/download-button.png" alt="download button" width="450">
 
 
 ## Running the tutorial 
