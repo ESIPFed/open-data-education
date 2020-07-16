@@ -1,6 +1,9 @@
 # Open Science Education
 
-[![Binder]()
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ESIPFed/open-data-education/master?urlpath=lab)
+[![Build Status](https://travis-ci.org/dask/dask-examples.svg?branch=master)](https://travis-ci.org/ESIPFed/open-data-education)
+
+
 
 Try the notebooks on pangeo.binder.io_ : |Binder|
 
