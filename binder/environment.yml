@@ -2,22 +2,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - bokeh=2.1.1
-  - dask=2.20.0
-  - jupyterlab=2.1
-  - nodejs=14
-  - numba
-  - numpy=1.18
+  - numpy
   - pip
-  - pandas=1.0
-  - pyarrow==0.17
-  - python-graphviz
-  - seaborn
-  - scikit-learn=0.23
+  - pandas
+  - scikit-learn
   - matplotlib
-  - nbserverproxy
-  - nomkl
-  - h5py
   - xarray
   - bottleneck
   - requests
