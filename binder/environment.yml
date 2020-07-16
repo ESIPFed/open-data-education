@@ -21,7 +21,7 @@ dependencies:
   - xarray
   - bottleneck
   - requests
-  - rasrerio
+  - rasterio
 
   - pip:
     - mimesis
