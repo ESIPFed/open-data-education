@@ -4,9 +4,6 @@
 [![Build Status](https://travis-ci.org/dask/dask-examples.svg?branch=master)](https://travis-ci.org/ESIPFed/open-data-education)
 
 
-
-Try the notebooks on pangeo.binder.io_ : |Binder|
-
 **Quick notes**
 
 This material has been prepared for the ESIP Open Data Education Series. We encourage you to run the tutorial by yourself, but please have a look at all the sections below. We appreciate your support and feedback. 
