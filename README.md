@@ -52,7 +52,13 @@ your browser and click the green "Download" button in the upper right:
 
 **Note**: *As it is to be run on public infrastructure, you can use Binder script at the root folder.*
 
+## Tutorial index 
 
+|Name |Description|link|
+|-----|-----------|----|
+|Introduction to Cloud|Details on cloud technologies       |[Tutorial 1](/intotocloud.ipynb)  |
+|Open datasets  |Publically availiable datasets     | [Tutorial 2](/opendatasets.ipynb)  |
+|Xarray |Introduction to xarray    | [Tutorial 3](/x-array.ipynb)  |
 
 ## Issues
 
