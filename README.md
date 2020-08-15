@@ -57,8 +57,9 @@ your browser and click the green "Download" button in the upper right:
 |Name |Description|link|
 |-----|-----------|----|
 |Introduction to Cloud|Details on cloud technologies       |[Tutorial 1](/intotocloud.ipynb)  |
-|Open datasets  |Publically availiable datasets     | [Tutorial 2](/opendatasets.ipynb)  |
+|Open datasets  |Publically availiable datasets     | [Tutorial 2](/Opendatasets.ipynb)  |
 |Xarray |Introduction to xarray    | [Tutorial 3](/x-array.ipynb)  |
+|Dask |Introduction to Dask    | [Tutorial 4](/Dask.ipynb)  |
 
 ## Issues
 
