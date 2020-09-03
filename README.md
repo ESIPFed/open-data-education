@@ -60,6 +60,7 @@ your browser and click the green "Download" button in the upper right:
 |Open datasets  |Publically availiable datasets     | [Tutorial 2](/Opendatasets.ipynb)  |
 |Xarray |Introduction to xarray    | [Tutorial 3](/x-array.ipynb)  |
 |Dask |Introduction to Dask    | [Tutorial 4](/Dask.ipynb)  |
+|Visualization |Introduction to HoloViews    | [Tutorial 5](/Visualize.ipynb)  |
 
 ## Issues
 
