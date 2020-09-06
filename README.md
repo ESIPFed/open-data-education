@@ -61,6 +61,7 @@ your browser and click the green "Download" button in the upper right:
 |Xarray |Introduction to xarray    | [Tutorial 3](/x-array.ipynb)  |
 |Dask |Introduction to Dask    | [Tutorial 4](/Dask.ipynb)  |
 |Visualization |Introduction to HoloViews    | [Tutorial 5](/Visualize.ipynb)  |
+|Scaling-up |Using Dask to process imagery via DASK    | [Tutorial 6](/Scale-up.ipynb)  |
 
 ## Issues
 
