@@ -21,6 +21,7 @@ There are roughhly 10 mudules which are introduced via Jupyter Notebooks. The id
 
 The `Introduction to Cloud Computing` is a notebook goes into basics of cloud computing for satellite imagery and procesing. It is written for entry-level folks, and lacks full-depth walk-through.
 
+The `Using Dask to process imagery to calculate NDVI via DASK` is a notebook which integrates all the previous tutorials. The notebook sifts through all the Landsat scenes for Amazonia (since 2013), and calculates NDVI for each scene. Dask is utilized to do parallelization.
 
 ## Installation notes
 
@@ -58,10 +59,10 @@ your browser and click the green "Download" button in the upper right:
 |-----|-----------|----|
 |Introduction to Cloud|Details on cloud technologies       |[Tutorial 1](/intotocloud.ipynb)  |
 |Open datasets  |Publically availiable datasets     | [Tutorial 2](/Opendatasets.ipynb)  |
-|Xarray |Introduction to xarray    | [Tutorial 3](/x-array.ipynb)  |
+|Xarray |Introduction to Xarray    | [Tutorial 3](/x-array.ipynb)  |
 |Dask |Introduction to Dask    | [Tutorial 4](/Dask.ipynb)  |
 |Visualization |Introduction to HoloViews    | [Tutorial 5](/Visualize.ipynb)  |
-|Scaling-up |Using Dask to process imagery via DASK    | [Tutorial 6](/Scale-up.ipynb)  |
+|Scaling-up |Using Dask to process imagery to calculate NDVI via DASK    | [Tutorial 6](/Scale-up.ipynb)  |
 
 ## Issues
 
@@ -73,4 +74,4 @@ You can log issues using the GitHub ticketing, and we will address it at our ear
 
 ## Authors
 
-Aji John and Amanda Tan at University of Washington (<>).
+Aji John and Amanda Tan at University of Washington .
