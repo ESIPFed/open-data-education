@@ -12,6 +12,10 @@ dependencies:
   - requests
   - rasterio
   - pyproj
+  - beautifulsoup4
+  - rioxarray
+  - geopandas
+  - shapely
 
   - pip:
     - mimesis
