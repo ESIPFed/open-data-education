@@ -15,7 +15,7 @@ Our goal is to introduce users to the fundamental components that make up Pangeo
 
 ## Description
 
-There are roughhly 10 mudules which are introduced via Jupyter Notebooks. The idea is a user works through them one by one to refresh/exercise the rudimentary concepts, and finally see it utilized in an actual workflow.
+There are roughly 10 modules which are introduced via Jupyter Notebooks. The idea is a user works through them one by one to refresh/exercise the rudimentary concepts, and finally see it utilized in an actual workflow.
 
 `Introduction to Basic Python` is a notebook that describes open source Python packages that have been developed to seamlessly read and process spatio-temporal satellite imagery like Landsat or Sentinel.
 
