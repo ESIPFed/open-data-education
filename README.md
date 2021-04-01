@@ -1,33 +1,19 @@
-# Open Science Education
+<!-- #region -->
+# Building Pathways for Open Science Education using NASA datasets
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ESIPFed/open-data-education/master?urlpath=lab)
 [![Build Status](https://travis-ci.org/dask/dask-examples.svg?branch=master)](https://travis-ci.org/ESIPFed/open-data-education)
 
 ## Introduction
 
-The goal of this tutorial is to introduce users to working with NASA satellite imagery and utilizing Amazon Web Services' Open Data program. Through a series of modules, the user will develop an end-to-end workflow for working with satellite imagery, learn about geoscientific Python tools, and utilize a parallel computation platform on the cloud (i.e. the Pangeo Platform). 
+Here we will create a hypothetical scientific use case: A user wants to use the cloud to analyze change in landcover over a certain region in the Amazon over a period of 20 years.  The goal of this tutorial then is to introduce users to working with NASA satellite imagery and utilizing Amazon Web Services' Open Data program. Through a series of standardized modules, the user will develop an end-to-end workflow for working with satellite imagery, learn about geoscientific Python tools, visualize the data and utilize a parallel computation platform on the cloud (i.e. the Pangeo Platform). 
+
 
 ## Description
 
-The contents of this repository (Jupyter Notebooks) is meant to be executed through a web browser. 
+The contents of this repository consists of a series of Jupyter Notebooks and can be viewed on an open source, free computational platform like Binder. To view the contents of this repo, click the launch binder icon above. 
 
-`Introduction to Basic Python` is a notebook that describes open source Python packages that have been developed to seamlessly read and process spatio-temporal satellite imagery like Landsat or Sentinel.
-
-The `Introduction to Cloud Computing` is a notebook goes into basics of cloud computing for satellite imagery and procesing. It is written for entry-level folks, and lacks full-depth walk-through.
-
-The `Using Dask to process imagery to calculate NDVI via DASK` is a notebook which integrates all the previous tutorials. The notebook sifts through all the Landsat scenes for Amazonia (since 2013), and calculates NDVI for each scene. Dask is utilized to do parallelization.
-
-## Installation notes
-
-**Follow the workshop with just your browser?**   
-You can use the "launch binder" link above at the top of this README, which will launch a notebook instance on Binder with all required libraries installed.
-
-:
-
-```
-
-```
-
+<!-- #endregion -->
 
 ## Downloading the tutorial materials
 
@@ -39,33 +25,31 @@ If you have git installed, you can always get the tutorial materials by cloning 
 git clone https://github.com/ESIPFed/open-data-education.git
 ```
 
-Also, you can download the repository as a .zip file by heading over to the GitHub repository (https://github.com/ESIPFed/open-data-education.git) in
-your browser and click the green "Download" button in the upper right:
+Git is a version control system for tracking changes in computer files and coordinating work on those files amongst collaborators. To familiarize yourself with git, we recommend going through Software Carpentry's [Version Control With Git](https://swcarpentry.github.io/git-novice/)
 
-
-## Running the tutorial 
-
-**Note**: *As it is to be run on public infrastructure, you can use Binder script at the root folder.*
-
+<!-- #region -->
 ## Tutorial index 
 
 |Name |Description|link|
 |-----|-----------|----|
-|Introduction to Cloud|Details on cloud technologies       |[Tutorial 1](/intotocloud.ipynb)  |
-|Open datasets  |Publically availiable datasets     | [Tutorial 2](/Opendatasets.ipynb)  |
-|Xarray |Introduction to Xarray    | [Tutorial 3](/x-array.ipynb)  |
-|Dask |Introduction to Dask    | [Tutorial 4](/Dask.ipynb)  |
-|Visualization |Introduction to HoloViews    | [Tutorial 5](/Visualize.ipynb)  |
-|Scaling-up |Using Dask to process imagery to calculate NDVI via DASK    | [Tutorial 6](/Scale-up.ipynb)  |
+|Introduction to Cloud Computing|Working with Big Data    |[Tutorial 1](/01_intro_to_cloud.ipynb)  |
+|AWS Open datasets |Working with s3 buckets    | [Tutorial 2](/02_aws_opendatasets.ipynb)  |
+|Multi-dimensional analysis | Introduction to Xarray    | [Tutorial 3](/03_multidim_analysis.ipynb)  |
+|Parallel Computing |Introduction to Dask    | [Tutorial 4](/04_parallel_computing.ipynb)  |
+|Visualization |Introduction to HoloViews    | [Tutorial 5](/05_data_visualization.ipynb)  |
+|Scaling-up |Using Dask and Pangeo  | [Tutorial 6](/06_scalingup_pangeo.ipynb)  |
 
 ## Issues
 
 **Feedback/new tutotrial**   
-You can request new content or give general feedback through Gitub issues as well. Additionally, feel free to send us a pull request.
+You can request new content or give general feedback through Gitub issues as well by creating an issue or doing a pull request. 
 
-**Notebook related**   
-You can log issues using the GitHub ticketing, and we will address it at our earliest
 
-## Authors
+## Acknowledgements
 
-Aji John and Amanda Tan at University of Washington .
+The contents of this repository was developed by Aji John and Amanda Tan at the University of Washington with funding from the ESIPLab Summer 2020 Incubator Award 2020 and NASA ROSES. 
+<!-- #endregion -->
+
+```python
+
+```
