@@ -3,19 +3,13 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ESIPFed/open-data-education/master?urlpath=lab)
 [![Build Status](https://travis-ci.org/dask/dask-examples.svg?branch=master)](https://travis-ci.org/ESIPFed/open-data-education)
 
+## Introduction
 
-**Quick notes**
-
-This material has been prepared for the ESIP Open Data Education Series. We encourage you to run the tutorial by yourself, but please have a look at all the sections below. We appreciate your support and feedback. 
-
-## Abstract
-
-Our goal is to introduce users to the fundamental components that make up Pangeo and to help them envision a workflow that they can port to their own work. We have utilized a workflow of tracking landcover change in Amazon forest. Our second goal is to enable you to run the corresponding notebooks witout any computational investment from your side i.e. completely on public cloud. We will link to public datasets (specifically LandSat) on AWS.
-
+The goal of this tutorial is to introduce users to working with NASA satellite imagery and utilizing Amazon Web Services' Open Data program. Through a series of modules, the user will develop an end-to-end workflow for working with satellite imagery, learn about geoscientific Python tools, and utilize a parallel computation platform on the cloud (i.e. the Pangeo Platform). 
 
 ## Description
 
-There are roughhly 10 mudules which are introduced via Jupyter Notebooks. The idea is a user works through them one by one to refresh/exercise the rudimentary concepts, and finally see it utilized in an actual workflow.
+The contents of this repository (Jupyter Notebooks) is meant to be executed through a web browser. 
 
 `Introduction to Basic Python` is a notebook that describes open source Python packages that have been developed to seamlessly read and process spatio-temporal satellite imagery like Landsat or Sentinel.
 
