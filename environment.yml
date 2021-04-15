@@ -16,6 +16,7 @@ dependencies:
   - rioxarray
   - geopandas
   - shapely
+  - dask
 
   - pip:
     - mimesis
