@@ -6,28 +6,16 @@
 
 ## Introduction
 
-Here we will create a hypothetical scientific use case: A user wants to use the cloud to analyze change in landcover over a certain region in the Amazon over a period of 20 years.  The goal of this tutorial then is to introduce users to working with NASA satellite imagery and utilizing Amazon Web Services' Open Data program. Through a series of standardized modules, the user will develop an end-to-end workflow for working with satellite imagery, learn about geoscientific Python tools, visualize the data and utilize a parallel computation platform on the cloud (i.e. the Pangeo Platform). 
+Here we will create a hypothetical scientific use case: A user wants to use the cloud to analyze change in landcover over a certain region in the Amazon river basin over a period of 20 years.  The goal of this tutorial then is to introduce users to working with NASA satellite imagery and utilizing Amazon Web Services' Open Data program. Through a series of standardized modules, the user is shown an end-to-end workflow for working with satellite imagery. The modules will teach users how to utilize geoscientific Python tools, visualize the data and utilize a parallel computation platform on the cloud (i.e. the Pangeo Platform). 
 
 
 ## Description
 
 The contents of this repository consists of a series of Jupyter Notebooks and can be viewed on an open source, free computational platform like Binder. To view the contents of this repo, click the launch binder icon above. 
 
-<!-- #endregion -->
+## Prerequisites
+We encourage users to have basic knowledge of Python and Git. The [Software Carpentry](https://swcarpentry.github.io/) education materials is a great place to start. 
 
-## Downloading the tutorial materials
-
-**Note**: *This repository is actively being developed as a tutorial, so we will be updating the materials without notifications. To update your local copy, you can download the latest version again, or do a `git pull` if you are using git.*
-
-If you have git installed, you can always get the tutorial materials by cloning this repo:
-
-```
-git clone https://github.com/ESIPFed/open-data-education.git
-```
-
-Git is a version control system for tracking changes in computer files and coordinating work on those files amongst collaborators. To familiarize yourself with git, we recommend going through Software Carpentry's [Version Control With Git](https://swcarpentry.github.io/git-novice/)
-
-<!-- #region -->
 ## Tutorial index 
 
 |Name |Description|link|
@@ -39,15 +27,15 @@ Git is a version control system for tracking changes in computer files and coord
 |Visualization |Introduction to HoloViews    | [Tutorial 5](/05_data_visualization.ipynb)  |
 |Scaling-up |Using Dask and Pangeo  | [Tutorial 6](/06_scalingup_pangeo.ipynb)  |
 
-## Issues
+## Issues/Collaboration
 
 **Feedback/new tutotrial**   
-You can request new content or give general feedback through Gitub issues as well by creating an issue or doing a pull request. 
+You can request new content or give general feedback through Gitub issues or collaborate on these materials by creating a Pull Request. 
 
 
 ## Acknowledgements
 
-The contents of this repository was developed by Aji John and Amanda Tan at the University of Washington with funding from the ESIPLab Summer 2020 Incubator Award 2020 and NASA ROSES. 
+The contents of this repository was developed by Aji John and Amanda Tan at the University of Washington with funding from the ESIPLab Summer 2020 Incubator Award 2020.
 <!-- #endregion -->
 
 ```python
